@@ -3,7 +3,7 @@ import { graphql } from "gatsby";
 import Hero from "../components/Hero";
 import TechSkills from "../components/TechSkills";
 import Experience from "../components/Experience";
-import Projects from "../components/Projects";
+import AllProjects from "../components/AllProjects";
 import Seo from "../components/Seo";
 
 export default function Home() {

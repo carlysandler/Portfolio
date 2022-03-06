@@ -15,7 +15,7 @@ const lorem = new LoremIpsum({
   },
 });
 
-const techSkills = [
+const skills = [
   {
     id: 1,
     icon: <FaCode className="service-icon" />,
@@ -36,4 +36,4 @@ const techSkills = [
   },
 ];
 
-export default techSkills;
+export default skills;

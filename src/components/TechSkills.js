@@ -1,8 +1,9 @@
-import React from "react"
-import Title from "./Title"
-import services from "../constants/services"
-const Services = () => {
-  return <h2>services component</h2>
+import React from "react";
+import Title from "./Title";
+import skills from "../constants/tech_skills";
+
+function techSkills() {
+  return <h2>technical skills component</h2>;
 }
 
-export default Services
+export default techSkills;
