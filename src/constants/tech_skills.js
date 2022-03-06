@@ -4,14 +4,12 @@ import { FaCode, FaSketch, FaAndroid } from "react-icons/fa";
 
 const lorem = new LoremIpsum({
   sentencesPerParagraph: {
-    sentencesPerParagraph: {
-      max: 4,
-      min: 3,
-    },
-    wordsPerSentence: {
-      max: 16,
-      min: 4,
-    },
+    max: 4,
+    min: 3,
+  },
+  wordsPerSentence: {
+    max: 16,
+    min: 4,
   },
 });
 

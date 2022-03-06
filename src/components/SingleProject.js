@@ -7,4 +7,4 @@ function SingleProject() {
   return <h2>single project component</h2>;
 }
 
-export default Project;
+export default SingleProject;
