@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
+import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import TechSkills from "../components/TechSkills";
 import Experience from "../components/Experience";
@@ -8,8 +9,8 @@ import Seo from "../components/Seo";
 
 export default function Home() {
   return (
-    <>
-      <h1>Carly Sandler Portfolio!</h1>;
-    </>
+    <Layout>
+      <h1>Carly Sandler Portfolio!</h1>
+    </Layout>
   );
 }
