@@ -1,11 +1,8 @@
-import React from "react"
-import { graphql } from "gatsby"
-
+import React from "react";
+import { graphql } from "gatsby";
 
 function Projects() {
-	return (
-		<div>Projects</div>
-	)
+  return <div>Projects</div>;
 }
 
-export default Projects
+export default Projects;
