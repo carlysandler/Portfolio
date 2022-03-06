@@ -1,7 +1,13 @@
-import React from 'react'
+import React from "react";
+import { graphql } from "gatsby";
+import Title from "../components/Title";
+import Seo from "../components/Seo";
 
-export default function About() {
-	return (
-		<div>About Page</div>
-	)
+function About() {
+  return (
+    <>
+      <h2>about page</h2>
+    </>
+  );
 }
+export default About;
