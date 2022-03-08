@@ -1,10 +1,8 @@
-import React from 'react'
-import socialLinks from "../constants/social_links";
+import React from "react";
+import SocialLinks from "../constants/socialLinks";
 
 function Footer() {
-	return (
-		<h2>Footer</h2>
-	)
+  return <h2>Footer</h2>;
 }
 
-export default Footer
+export default Footer;
