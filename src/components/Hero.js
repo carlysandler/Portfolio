@@ -35,7 +35,7 @@ const Hero = () => {
             <h5>but you can call me code sis</h5>
             <h3>full-stack software engineer</h3>
             <Link to="/contact" className="btn">
-              let's connect
+              contact me
             </Link>
             <SocialLinks />
           </div>
